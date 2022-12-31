@@ -8,9 +8,9 @@
 import SwiftUI
 
 
-struct FirebaseAuthSignIn: View {
+public struct FirebaseAuthSignIn: View {
  
-    var body: some View {
+   public var body: some View {
         
         Button(action: {
             if Auth.auth().currentUser != nil {
