@@ -13,7 +13,9 @@ struct FirebaseAuthSignIn: View {
     var body: some View {
         
         Button(action: {
-            Auth.auth().currentUser
+            if Auth.auth().currentUser != nil {
+                
+            }
         }) {
             Text("Hello, World!")
         }
