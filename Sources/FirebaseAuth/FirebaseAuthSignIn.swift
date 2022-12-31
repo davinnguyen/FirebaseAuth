@@ -10,6 +10,8 @@ import SwiftUI
 
 public struct FirebaseAuthSignIn: View {
  
+ public init() {}
+ 
    public var body: some View {
         
         Button(action: {
