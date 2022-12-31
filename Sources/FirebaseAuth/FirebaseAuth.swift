@@ -21,7 +21,6 @@ struct FIRUser: Hashable {
     func createProfileChangeRequest() -> FIRUserProfileChangeRequest? {
         var result: FIRUserProfileChangeRequest?
         return result
-        
     }
     
     func signOut() throws {

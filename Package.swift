@@ -7,6 +7,7 @@ let package = Package(
     name: "FirebaseAuth",
     
     platforms: [
+        
             .iOS(.v13)
         ],
     
